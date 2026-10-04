@@ -1,0 +1,53 @@
+ASS to SRT Extractor - What is it used for?
+============================================
+
+ENGLISH
+-------
+This software converts anime / video subtitle files from .ass (Advanced SubStation Alpha)
+format into plain .srt format, keeping ONLY the dialogue (the spoken lines).
+
+Why is it needed?
+An .ass subtitle file usually contains much more than dialogue: opening/ending song lyrics,
+karaoke effects, on-screen signs and titles, drawings and other styling data. Many players,
+translation tools and editing programs only understand simple .srt files, and extra content
+like songs and signs makes the result messy.
+
+What it does:
+ - Load one or many .ass / .ssa files (drag & drop or the "Add files" button).
+ - Lists every "style" found in the files (Default, Italics, OP, ED, Signs, etc.) and
+   guesses what each one is (Dialogue, Song, Sign/Title, Drawing/FX).
+ - You tick only the styles you want to keep.
+ - "Smart pick" (Levels 1-3: Quick, Balanced, Strict) can choose the dialogue styles
+   automatically.
+ - You can preview the lines of any style before converting.
+ - Converts all loaded files to clean .srt files in one click, saved next to the original
+   files or in an output folder you choose.
+
+Typical use: turning a whole season of anime .ass subtitles into clean, dialogue-only
+.srt files.
+
+
+සිංහල
+------
+මෙම මෘදුකාංගය මගින් ඇනිමේ / වීඩියෝ subtitle ෆයිල් වන .ass (Advanced SubStation Alpha)
+ආකෘතියෙන්, සරල .srt ආකෘතියට හරවයි. ඒ සමඟම කතා කරන වචන (Dialogue) පමණක් තබා ගනී.
+
+මෙය අවශ්‍ය වන්නේ ඇයි?
+.ass subtitle ෆයිල් එකක සාමාන්‍යයෙන් Dialogue වලට අමතරව තවත් බොහෝ දේ තිබේ:
+Opening/Ending ගීත පද, Karaoke effects, තිරයේ පෙන්වන Sign සහ Title, රූප (Drawings) සහ
+වෙනත් styling දත්ත. බොහෝ player, පරිවර්තන මෙවලම් සහ editing මෘදුකාංග තේරුම් ගන්නේ
+සරල .srt ෆයිල් පමණි. ගීත සහ sign වැනි අමතර දේ තිබීම නිසා ප්‍රතිඵලය අවුල් වේ.
+
+මෙය කරන්නේ කුමක්ද:
+ - .ass / .ssa ෆයිල් එකක් හෝ කිහිපයක් ඇතුළත් කරන්න (Drag & Drop හෝ "Add files" බොත්තම).
+ - ෆයිල් වල ඇති සියලුම "style" (Default, Italics, OP, ED, Signs ආදිය) ලැයිස්තුගත කර,
+   ඒ එක් එක් එක කුමක්දැයි (Dialogue, Song, Sign/Title, Drawing/FX) අනුමාන කරයි.
+ - ඔබට අවශ්‍ය style පමණක් Tick කරන්න.
+ - "Smart pick" (Level 1-3: Quick, Balanced, Strict) මගින් Dialogue style ස්වයංක්‍රීයව
+   තෝරා ගත හැක.
+ - පරිවර්තනයට පෙර ඕනෑම style එකක පේළි Preview කර බැලිය හැක.
+ - එක ක්ලික් එකකින් ඇතුළත් කළ සියලු ෆයිල් පිරිසිදු .srt ෆයිල් බවට හරවයි. ඒවා මුල්
+   ෆයිල් ඇති තැනටම, නැතහොත් ඔබ තෝරන Output folder එකට සුරැකේ.
+
+සාමාන්‍ය භාවිතය: ඇනිමේ සම්පූර්ණ season එකක .ass subtitle, Dialogue පමණක් ඇති පිරිසිදු
+.srt ෆයිල් බවට පත් කිරීම.
